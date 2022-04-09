@@ -21,3 +21,13 @@
     text-align: center;
     min-height: 100vh;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    h1 {
+        font-family: trapBlack;
+        color: #003F29;
+        font-size: 3em;
+        letter-spacing: -5px;
+    } 
+  } 
