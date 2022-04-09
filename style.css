@@ -1,0 +1,23 @@
+    @font-face {
+      font-family: trapBlack;
+      src: url(Trap-Black.ttf);
+  }
+    
+  body{
+      background-color: #C3E4D1;
+  }
+  h1 {
+      font-family: trapBlack;
+      color: #003F29;
+      font-size: 10em;
+      letter-spacing: -5px;
+  } 
+
+  .center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
